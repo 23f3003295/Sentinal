@@ -34,3 +34,7 @@ dist-ssr
 
 # Thumbnails
 Thumbs.db
+
+# Large model files
+model/*.joblib
+*.joblib
