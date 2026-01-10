@@ -1,0 +1,366 @@
+.cases-view {
+  width: 100%;
+}
+
+.cases-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.08);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+}
+
+.cases-stats {
+  display: flex;
+  gap: 40px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cases-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-action:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.cases-filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-box input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.search-box input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.filter-select {
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #fff;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+.filter-select option {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.cases-table-container {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.cases-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cases-table thead {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.cases-table th {
+  padding: 16px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cases-table tbody tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.2s ease;
+}
+
+.cases-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.cases-table td {
+  padding: 16px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.case-id {
+  font-weight: 600;
+  color: #4ecdc4;
+}
+
+.customer-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.customer-name {
+  font-weight: 500;
+}
+
+.customer-type {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.amount {
+  font-weight: 600;
+  color: #ffe66d;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-closed {
+  background: rgba(78, 205, 196, 0.2);
+  color: #4ecdc4;
+}
+
+.status-open {
+  background: rgba(255, 230, 109, 0.2);
+  color: #ffe66d;
+}
+
+.status-progress {
+  background: rgba(156, 39, 176, 0.2);
+  color: #9c27b0;
+}
+
+.status-escalated {
+  background: rgba(255, 107, 53, 0.2);
+  color: #ff6b35;
+}
+
+.status-legal {
+  background: rgba(255, 107, 107, 0.2);
+  color: #ff6b6b;
+}
+
+.status-promise {
+  background: rgba(149, 225, 211, 0.2);
+  color: #95e1d3;
+}
+
+.priority-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.priority-high {
+  background: rgba(255, 107, 107, 0.2);
+  color: #ff6b6b;
+}
+
+.priority-medium {
+  background: rgba(255, 230, 109, 0.2);
+  color: #ffe66d;
+}
+
+.priority-low {
+  background: rgba(78, 205, 196, 0.2);
+  color: #4ecdc4;
+}
+
+.risk-score {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.risk-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.risk-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.sla-breaches {
+  text-align: center;
+}
+
+.breach-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  background: rgba(255, 107, 107, 0.3);
+  color: #ff6b6b;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-icon {
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-icon:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+.btn-danger:hover {
+  background: rgba(255, 107, 107, 0.3);
+  border-color: #ff6b6b;
+  color: #ff6b6b;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.pagination-btn {
+  padding: 10px 24px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.pagination-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  .cases-table-container {
+    overflow-x: auto;
+  }
+  
+  .cases-table {
+    min-width: 1200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cases-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cases-filters {
+    flex-direction: column;
+  }
+  
+  .pagination {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
