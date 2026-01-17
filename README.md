@@ -62,10 +62,10 @@ FedEx currently manages overdue accounts through manual, siloed processes (email
 ## 📈 Economic Impact
 | Metric | Pre-Sentinel (Manual) | Post-Sentinel (AI-Driven) | Impact |
 | :--- | :--- | :--- | :--- |
-| **Recovery Rate** | [cite_start]~45% [cite: 231] | [cite_start]**60–75%** [cite: 232] | [cite_start]Higher Liquidity [cite: 233] |
-| **Allocation Time** | [cite_start]1–2 Days [cite: 235] | [cite_start]**<5 Minutes** [cite: 236] | [cite_start]Reduced Labor Costs [cite: 237] |
-| **Audit Coverage** | [cite_start]<20% (Sample) [cite: 239] | [cite_start]**100% (Real-time)** [cite: 240] | [cite_start]Risk Mitigation [cite: 241] |
-| **Case Cycle Time** | [cite_start]25+ Days [cite: 243] | [cite_start]**12–15 Days** [cite: 244] | [cite_start]Optimized Efficiency [cite: 245] |
+| **Recovery Rate** | ~45%  | **60–75%**  | Higher Liquidity |
+| **Allocation Time** | 1–2 Days | **<5 Minutes** | Reduced Labor Costs |
+| **Audit Coverage** | <20% (Sample) | **100% (Real-time)** | Risk Mitigation |
+| **Case Cycle Time** | 25+ Days | **12–15 Days** | Optimized Efficiency |
 
 ---
 
